@@ -1,0 +1,52 @@
+header
+{
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+}
+h2, h5
+{
+    color: white;
+}
+h2
+{
+    font-size: 50px;
+}
+nav
+{
+    background-color: grey;
+    padding: 15px;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-variant-caps: small-caps;
+    font-size: large;
+}
+article
+{
+    width: 31%;
+    float: left;
+    padding: 15px;
+    text-align: justify;
+    background-color: lightgreen;
+}
+h3
+{
+    background-color: blue;
+}
+section:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer
+{
+    background-color: blue;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
